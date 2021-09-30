@@ -1,0 +1,36 @@
+<style>
+        * {box-sizing: border-box;font-family:arial;}
+        .hide {display:none;}
+        .right {text-align:right;}
+        .error {border:1px solid Red;}
+     
+        .nombre {width:100%}
+        .formulario {text-align:center;width:400px;border:1px solid #eee;padding:10px;}
+        .formulario label,.formulario label~input {
+            width: 50%;
+            display: inline-block;
+        }
+        .formulario label {text-align:right;padding-right:20px;}
+        .formulario>div {margin-top:10px;overflow:hidden;}
+        .boton {
+            border:none;
+            color:white;
+            padding:10px 20px;
+        }
+        .agregar {
+            background-color:green;
+        }
+        .enviar {
+            background-color:rgb(128, 0, 117);
+        }
+     
+        #listado {
+            border:1px solid #eee;
+            margin-top:20px;
+            width:400px;
+        }
+        #listado th {background-color:#eee;padding:5px 10px;}
+        #listado img {
+            cursor:pointer;
+        }
+        </style>
